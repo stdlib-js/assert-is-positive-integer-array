@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isPositiveIntegerArray;
+})();
 })();
 </script>
 ```
@@ -126,6 +128,7 @@ bool = isPositiveIntegerArray.objects( [ 1.0, 2.0, 10.0 ] );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer-array@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = isPositiveIntegerArray( [ 5, 2, 3 ] );
 // returns true
@@ -145,6 +148,7 @@ bool = isPositiveIntegerArray( [ 2.3, 1, 3 ] );
 bool = isPositiveIntegerArray( [] );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -242,11 +246,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-array]: https://github.com/stdlib-js/assert-is-array/tree/umd
+[@stdlib/assert/is-array]: https://github.com/stdlib-js/assert-is-array/tree/umd/tree/umd
 
-[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert-is-integer/tree/umd
+[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert-is-integer/tree/umd/tree/umd
 
-[@stdlib/assert/is-positive-integer]: https://github.com/stdlib-js/assert-is-positive-integer/tree/umd
+[@stdlib/assert/is-positive-integer]: https://github.com/stdlib-js/assert-is-positive-integer/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
