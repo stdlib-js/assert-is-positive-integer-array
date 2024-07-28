@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPositiveIntegerArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer-array@deno/mod.js';
+import isPositiveIntegerArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer-array@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer-array@deno/mod.js';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer-array@v0.2.2-deno/mod.js';
 ```
 
 #### isPositiveIntegerArray( value )
@@ -113,7 +113,7 @@ bool = isPositiveIntegerArray.objects( [ 1.0, 2.0, 10.0 ] );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isPositiveIntegerArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer-array@deno/mod.js';
+import isPositiveIntegerArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer-array@v0.2.2-deno/mod.js';
 
 var bool = isPositiveIntegerArray( [ 5, 2, 3 ] );
 // returns true
